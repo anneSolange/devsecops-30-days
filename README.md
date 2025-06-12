@@ -1,4 +1,4 @@
-# 🚀 30 Jours pour devenir DevSecOps – Challenge Public
+# 🚀 30 Jours pour devenir DevSecOps 
 
 Bienvenue dans mon challenge **"30 jours pour devenir DevSecOps"** !  
 Durant un mois, je me forme en profondeur au DevSecOps et je partage chaque jour mon avancée, mes découvertes, mes erreurs et mes outils testés. 🔐💻
@@ -9,7 +9,7 @@ Durant un mois, je me forme en profondeur au DevSecOps et je partage chaque jour
 - Comprendre les fondations du DevSecOps
 - Mettre en place des pipelines CI/CD sécurisés
 - Intégrer des outils de sécurité (SAST, DAST, SCA, Secret Scanning, etc.)
-- Apprendre en public et construire ma vitrine technique
+- Apprendre en public et construire une vitrine technique
 
 ---
 
