@@ -6,15 +6,15 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #GitHub Action crée automatiquement une machine virtuelle pour toi (souvent Ubuntu) à chaque exécution de pipeline
     steps:
-      - name: Checkout du code
-        uses: actions/checkout@v3
+      - name: Checkout du code 
+        uses: actions/checkout@v3 #Clone ton dépôt dans la machine virtuelle de la pipeline / recuperation des code push pull etc 
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.10' #Installe moi python3.10 dans la VM que tu as lancé pour cette pipeline 
 
       - name: Script test
         run: echo "Hello DevSecOps :)"
