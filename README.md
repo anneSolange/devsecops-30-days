@@ -26,8 +26,7 @@ Durant un mois, je me forme en profondeur au DevSecOps et je partage chaque jour
 ---
 
 ## 📣 Me suivre / échanger
-Je publie chaque jour sur [LinkedIn](https://www.linkedin.com/in/lise-eloundou-61352b213/) avec le hashtag  
-`#30JoursDevSecOps` – Rejoins-moi si tu apprends aussi !
+Je publie chaque jour sur [LinkedIn](https://www.linkedin.com/in/lise-eloundou-61352b213/) avec le hashtag `#30JoursDevSecOps` – Rejoins-moi si tu apprends aussi !
 
 ---
 
