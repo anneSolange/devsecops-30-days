@@ -5,7 +5,7 @@ from fastapi.templating import Jinja2Templates
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
-# 1. Page HTML (Frontend)
+
 @app.get("/", response_class=HTMLResponse)
 async def homepage(request: Request):
     content = templates.get_template("index.html").render(request=request)
@@ -14,7 +14,7 @@ async def homepage(request: Request):
     response.headers["Pragma"] = "no-cache"
     return response
 
-# 2. API JSON (Backend)
+
 @app.get("/api")
 def api_home():
     return {"message": "Hello DevSecOps"}
