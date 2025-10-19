@@ -2,7 +2,7 @@ name: Simple CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main , devellop ]
 
 jobs:
   build:
@@ -38,3 +38,9 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
           image-ref: monapp-fastapi
+
+      - name: Run OWASP ZAP Baseline Scan
+        uses: docker://owasp/zap2docker-stable
+        with:
+         args: zap-baseline.py -t http://host.docker.internal:8000 -r zap_report.html
+

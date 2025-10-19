@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevSecOps FastAPI App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Exemple d'entêtes volontairement faibles (pour ZAP test) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <h1>Bienvenue sur ma démo DevSecOps avec FastAPI 🚀</h1>
+    <p>Ceci est une page HTML rendue par Jinja2 et FastAPI.</p>
+
+    <p>Cette page est volontairement simple pour que ZAP détecte les failles potentielles (XSS, Headers, etc).</p>
+
+    <!-- Bouton simulant une interaction -->
+    <button onclick="alert('Ceci est un test XSS potentiel !')">Clique-moi</button>
+</body>
+</html>
